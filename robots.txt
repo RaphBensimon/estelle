@@ -1,6 +1,0 @@
-# START nuxt-simple-robots (indexable)
-User-agent: *
-Disallow: 
-
-Sitemap: https://estelle-venturini.fr/sitemap.xml
-# END nuxt-simple-robots
