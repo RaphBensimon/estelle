@@ -51,5 +51,6 @@
 #profil-picture {
 	border-radius: 3rem 3rem 50% 3rem;
 	max-width: 90%;
+	width: 350px;
 }
 </style>
