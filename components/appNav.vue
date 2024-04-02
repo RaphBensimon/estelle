@@ -33,26 +33,25 @@
 				lg:mt-8
 				lg:relative
 				lg:visible
-				xl:mt-0"
-			@click="activeHamburger()">
+				xl:mt-0">
 			<a
 				class="hover:opacity-75 hover:underline"
-				href="#about">
+				href="#about" @click="activeHamburger()">
 				A propos de moi
 			</a>
 			<a
 				class="hover:opacity-75 hover:underline"
-				href="#contact">
+				href="#contact" @click="activeHamburger()">
 				Contacts & Tarifs
 			</a>
 			<a
 				href="#sophro"
-				class="hover:opacity-75 hover:underline">
+				class="hover:opacity-75 hover:underline" @click="activeHamburger()">
 				Sophrologie
 			</a>
 			<a
 				href="#sexo"
-				class="hover:opacity-75 hover:underline">
+				class="hover:opacity-75 hover:underline" @click="activeHamburger()">
 				Séxothérapie
 			</a>
 		</nav>
