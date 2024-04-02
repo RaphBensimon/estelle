@@ -7,7 +7,6 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "deploy": "push-dir --dir=.output/public --branch=main --cleanup",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
