@@ -2,31 +2,36 @@
 	<div>
 		<AppShape
 			id="about"
-			class="fill-terra mt-28 relative top-1 rotate-180" />
-		<section
-			class="bg-terra flex items-center px-10 py-20">
+			class="relative top-1 mt-28 rotate-180 fill-terra" />
+		<section class="flex items-center bg-terra px-10 py-20">
 			<div
 				class="flex
-					md:flex-row
-					justify-center
+					flex-col
 					items-center
-					flex-col">
+					justify-center
+					md:flex-row">
 				<NuxtImg
+					v-motion
+					:initial="motion.left.initial"
+					:visible-once="motion.left.visibleOnce"
+
 					src="/estelle-venturini.jpg"
 					sizes="350px"
 					id="profil-picture" />
 				<div
-					class="mt-14 md:mt-0 md:ml-14 lg:w-2/4">
+					class="mt-14 md:ml-14 md:mt-0 lg:w-2/4"
+					v-motion
+					:initial="motion.right.initial"
+					:visible-once="motion.right.visibleOnce">
 					<h3
-						class="font-bold
+						class="
 							font-mono
-							text
 							text-5xl
+							font-bold
 							text-white">
 						Estelle Venturini
 					</h3>
-					<p
-						class="my-4 text-slate-50">
+					<p class="my-4 text-slate-50">
 						Sophrologue et sexothérapeute, je m'engage pleinement dans l'accompagnement
 						vers un épanouissement mental et sexuel.
 						<br>
@@ -43,10 +48,12 @@
 				</div>
 			</div>
 		</section>
-		<AppShape
-			class="fill-terra relative -top-1" />
+		<AppShape class="relative -top-1 fill-terra" />
 	</div>
 </template>
+<script setup lang="ts">
+import motion from '@/utils/motion'
+</script>
 <style scoped>
 #profil-picture {
 	border-radius: 3rem 3rem 50% 3rem;

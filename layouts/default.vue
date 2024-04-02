@@ -1,18 +1,16 @@
 <template>
-	<div
-		class="bg-beige box-border text-lg text-truffle">
+	<div class="box-border bg-beige text-lg text-truffle">
 		<header
 			class="flex
-				md:flex-row
-				lg:flex-col
-				xl:flex-row
-				justify-between
 				items-center
+				justify-between
 				px-6
+				py-8
+				md:flex-row
 				md:px-12
-				py-8">
-			<NuxtLink
-				to="/">
+				lg:flex-col
+				xl:flex-row">
+			<NuxtLink to="/">
 				<NuxtImg
 					src="/logo_estelle_venturini.png"
 					sizes="400px"
@@ -20,16 +18,14 @@
 			</NuxtLink>
 			<AppNav />
 		</header>
-		<main
-			class="py-8 lg:py-12">
+		<main class="py-8 lg:py-12">
 			<slot />
 		</main>
-		<footer
-			class="flex justify-center pb-12 px-20">
+		<footer class="flex justify-center px-20 pb-12">
 			<div
 				class="flex-col
-					justify-center
 					items-center
+					justify-center
 					text-center
 					text-sm">
 				<div>

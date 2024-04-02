@@ -1,45 +1,45 @@
 <template>
 	<div
-		class="bg-sand
+		class="mt-28
 			flex
-			justify-center
-			items-center
 			flex-col
-			mt-28
+			items-center
+			justify-center
+			bg-sand
 			px-10
 			py-20"
 		id="contact">
-		<div
-			class="flex md:flex-row justify-center items-center flex-col">
+		<div class="flex flex-col items-center justify-center md:flex-row">
 			<div
-				class="bg-truffle
+				v-motion
+				:initial="motion.left.initial"
+				:visible-once="motion.left.visibleOnce"
+				class="relative
 					flex
+					w-fit
 					flex-col
 					gap-y-4
+					rounded-3xl
+					bg-truffle
 					px-14
 					py-10
-					relative
-					rounded-3xl
-					text-light-sand
-					w-fit">
-				<div
-					class="contact-overlay rounded-3xl z-0" />
+					text-light-sand">
+				<!-- eslint-disable-next-line tailwindcss/no-custom-classname -->
+				<div class="contact-overlay z-0 rounded-3xl" />
 				<NuxtLink
 					v-for="(item, index) in contacts"
 					:key="index"
 					:href="item.href"
-					class="cursor-pointer
+					class="z-10
 						flex
+						cursor-pointer
 						items-center
-						z-10
 						hover:opacity-75">
 					<Icon
 						:name="item.icon"
 						size="36px" />
-					<div
-						class="flex flex-col ml-4">
-						<h5
-							class="font-bold font-mono text-2xl">
+					<div class="ml-4 flex flex-col">
+						<h5 class="font-mono text-2xl font-bold">
 							{{ item.title }}
 						</h5>
 						{{ item.content }}
@@ -47,45 +47,52 @@
 				</NuxtLink>
 			</div>
 			<NuxtImg
-				class="max-w-1/2-vw md:max-w-1/4-vw mt-14 md:mt-0 md:ml-14"
+				v-motion
+				:initial="motion.right.initial"
+				:visible-once="motion.right.visibleOnce"
+				class="mt-14 max-w-1/2-vw md:ml-14 md:mt-0 md:max-w-1/4-vw"
 				src="/fleur.png"
 				sizes="380px" />
 		</div>
 		<div
-			class="flex
-				md:flex-row
-				justify-center
-				items-center
+			class="mt-14
+				flex
 				flex-col-reverse
-				mt-14">
+				items-center
+				justify-center
+				md:flex-row">
 			<NuxtImg
-				class="max-w-1/2-vw md:max-w-1/4-vw mt-14 md:mt-0 md:mr-14"
+
+				v-motion
+				:initial="motion.left.initial"
+				:visible-once="motion.left.visibleOnce"
+				class="mt-14 max-w-1/2-vw md:mr-14 md:mt-0 md:max-w-1/4-vw"
 				src="/femme.png"
 				sizes="380px" />
 			<div
-				class="bg-terra
+				v-motion
+				:initial="motion.right.initial"
+				:visible-once="motion.right.visibleOnce"
+				class="relative
 					flex
+					w-fit
 					flex-col
 					gap-y-4
+					rounded-3xl
+					bg-terra
 					px-14
 					py-10
-					relative
-					rounded-3xl
-					text-light-sand
-					w-fit">
-				<div
-					class="contact-overlay rounded-3xl z-0" />
+					text-light-sand">
+				<div class="contact-overlay z-0 rounded-3xl" />
 				<div
 					v-for="(item, index) in pricing"
 					:key="index"
-					class="flex items-center z-10">
+					class="z-10 flex items-center">
 					<Icon
 						:name="item.icon"
 						size="36px" />
-					<div
-						class="flex flex-col ml-4">
-						<h5
-							class="font-bold font-mono text-2xl">
+					<div class="ml-4 flex flex-col">
+						<h5 class="font-mono text-2xl font-bold">
 							{{ item.title }}
 						</h5>
 						{{ item.content }}
@@ -96,6 +103,7 @@
 	</div>
 </template>
 <script setup lang="ts">
+import motion from '@/utils/motion'
 import { reactive } from 'vue'
 const contacts = reactive([
 	{

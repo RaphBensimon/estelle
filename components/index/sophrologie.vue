@@ -2,25 +2,25 @@
 	<div>
 		<AppShape
 			id="sophro"
-			class="fill-truffle mt-28 relative top-1 rotate-180" />
+			class="relative top-1 mt-28 rotate-180 fill-truffle" />
 
-		<section
-			class="bg-truffle flex items-center flex-col px-10 py-20">
+		<section class="flex flex-col items-center bg-truffle px-10 py-20">
 			<div
 				class="flex
-					md:flex-row
-					justify-center
-					items-center
+					w-full
 					flex-col
-					w-full">
+					items-center
+					justify-center
+					md:flex-row">
 				<div
-					class="text-white md:w-2/4">
-					<h4
-						class="font-bold font-mono text text-5xl">
+					class="text-white md:w-2/4"
+					v-motion
+					:initial="motion.left.initial"
+					:visible-once="motion.left.visibleOnce">
+					<h4 class="font-mono text-5xl font-bold">
 						La sophrologie
 					</h4>
-					<p
-						class="my-4 text-slate-50">
+					<p class="my-4 text-slate-50">
 						C'est une méthode de relaxation qui combine la respiration, la méditation et
 						la visualisation pour harmoniser le corps et l'esprit. Elle aide à gérer le stress, l'anxiété
 						et à renforcer la confiance en soi.
@@ -36,25 +36,27 @@
 				</div>
 
 				<div
+
+					v-motion
+					:initial="motion.right.initial"
+					:visible-once="motion.right.visibleOnce"
 					id="image"
-					class="flex
-						justify-center
-						h-full
-						mix-blend-luminosity
+					class="relative
 						mt-8
-						md:mt-0
-						relative
-						w-full
-						md:ml-14">
+						flex
+						size-full
+						justify-center
+						mix-blend-luminosity
+						md:ml-14
+						md:mt-0">
 					<NuxtImg
-						class="h-full object-center object-cover w-full"
+						class="size-full object-cover object-center"
 						src="/femme-sophrologie.jpg"
 						sizes="350px" />
 				</div>
 			</div>
 		</section>
-		<AppShape
-			class="fill-truffle relative -top-1" />
+		<AppShape class="relative -top-1 fill-truffle" />
 	</div>
 </template>
 <style>

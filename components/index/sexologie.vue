@@ -1,38 +1,41 @@
 <template>
-	<div
-		id="sexo">
-		<section
-			class="bg-terra flex items-center flex-col mt-28 px-10 py-20">
+	<div id="sexo">
+		<section class="mt-28 flex flex-col items-center bg-terra px-10 py-20">
 			<div
 				class="flex
-					md:flex-row
-					justify-center
-					items-center
+					w-full
 					flex-col-reverse
-					w-full">
+					items-center
+					justify-center
+					md:flex-row">
 				<div
 					id="image"
-					class="flex
-						justify-center
-						h-full
-						mix-blend-luminosity
+					class="relative
 						mt-8
-						md:mt-0
-						relative
-						w-full">
+						flex
+						size-full
+						justify-center
+						mix-blend-luminosity
+						md:mt-0">
 					<NuxtImg
-						class="h-full object-center object-cover w-full"
+						class="size-full object-cover object-center"
 						src="/main-dans-la-main.jpg"
+
+						v-motion
+						:initial="motion.left.initial"
+						:visible-once="motion.left.visibleOnce"
 						sizes="400px" />
 				</div>
 				<div
-					class="text-white md:ml-14 md:w-2/4">
-					<h4
-						class="font-bold font-mono text text-5xl">
+					class="text-white md:ml-14 md:w-2/4"
+
+					v-motion
+					:initial="motion.right.initial"
+					:visible-once="motion.right.visibleOnce">
+					<h4 class="font-mono text-5xl font-bold">
 						La sexologie
 					</h4>
-					<p
-						class="my-4 text-slate-50">
+					<p class="my-4 text-slate-50">
 						La sexologie explore les multiples facettes de la sexualité humaine, en considérant à la fois
 						les aspects physiques, psychologiques et relationnels. Mon rôle en tant que sexologue est
 						d'accompagner mes patients dans leur cheminement vers une vie sexuelle épanouissante

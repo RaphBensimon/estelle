@@ -1,69 +1,70 @@
 <template>
 	<div>
 		<nav
-			class="absolute
-				top-32
-				lg:top-0
-				right-12
-				lg:right-0
-				bg-truffle
-				lg:bg-transparent
-				color
-				cursor-pointer
-				flex
-				lg:flex-row
-				flex-col
-				font-bold
-				font-mono
-				gap-8
-				lg:gap-y-0
+			class="
 				invisible
-				opacity-0
-				lg:opacity-100
-				p-8
-				lg:p-0
-				rounded-lg
-				lg:rounded-none
-				text-light-sand
-				lg:text-truffle
-				transition-opacity
+				absolute
+				right-12
+				top-32
 				z-10
-				lg:z-0
+				flex
+				cursor-pointer
+				flex-col
+				gap-8
+				rounded-lg
+				bg-truffle
+				p-8
+				font-mono
+				font-bold
+				text-light-sand
+				opacity-0
+				transition-opacity
 				md:mt-0
-				lg:mt-8
-				lg:relative
 				lg:visible
+				lg:relative
+				lg:right-0
+				lg:top-0
+				lg:z-0
+				lg:mt-8
+				lg:flex-row
+				lg:gap-y-0
+				lg:rounded-none
+				lg:bg-transparent
+				lg:p-0
+				lg:text-truffle
+				lg:opacity-100
 				xl:mt-0">
 			<a
-				class="hover:opacity-75 hover:underline"
-				href="#about" @click="activeHamburger()">
+				class="hover:underline hover:opacity-75"
+				href="#about"
+				@click="activeHamburger()">
 				A propos de moi
 			</a>
 			<a
-				class="hover:opacity-75 hover:underline"
-				href="#contact" @click="activeHamburger()">
+				class="hover:underline hover:opacity-75"
+				href="#contact"
+				@click="activeHamburger()">
 				Contacts & Tarifs
 			</a>
 			<a
 				href="#sophro"
-				class="hover:opacity-75 hover:underline" @click="activeHamburger()">
+				class="hover:underline hover:opacity-75"
+				@click="activeHamburger()">
 				Sophrologie
 			</a>
 			<a
 				href="#sexo"
-				class="hover:opacity-75 hover:underline" @click="activeHamburger()">
+				class="hover:underline hover:opacity-75"
+				@click="activeHamburger()">
 				Séxothérapie
 			</a>
 		</nav>
 		<div
 			class="tham tham-e-squeeze tham-w-8 lg:hidden"
 			@click="activeHamburger">
-			<div
-				class="tham-box">
-				<div
-					class="bg-truffle tham-inner" />
-				<div
-					class="bg-truffle tham-inner" />
+			<div class="tham-box">
+				<div class="tham-inner bg-truffle" />
+				<div class="tham-inner bg-truffle" />
 			</div>
 		</div>
 	</div>
