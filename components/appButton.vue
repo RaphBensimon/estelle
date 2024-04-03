@@ -1,6 +1,6 @@
 <template>
 	<button
-		:class="`py-2 px-4 rounded-full font-bold transition duration-200 ${style}`">
+		:class="`py-2 px-4 rounded-full font-bold ${style}`">
 		<slot />
 	</button>
 </template>
