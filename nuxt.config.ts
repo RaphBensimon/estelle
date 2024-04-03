@@ -24,6 +24,11 @@ export default defineNuxtConfig({
 				{
 					rel  : 'stylesheet',
 					href : 'https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap'
+				},
+				{
+					rel  : 'icon',
+					type : 'image/x-icon',
+					href : '/favicon.jpg'
 				}
 
 			]
