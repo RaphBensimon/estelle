@@ -1,13 +1,17 @@
 <!-- eslint-disable tailwindcss/no-custom-classname -->
 <template>
-	<div class="carousel flex gap-4">
-		<div class="carousel-container flex gap-4">
+	<div
+		class="carousel flex gap-4">
+		<div
+			class="carousel-container flex gap-4">
 			<div
 				v-for="index in 12"
 				:key="index"
 				:class="getClass(index)">
-				<div class="relative size-full mix-blend-luminosity">
-					<div class="absolute inset-0">
+				<div
+					class="relative size-full mix-blend-luminosity">
+					<div
+						class="absolute inset-0">
 						<NuxtImg
 							:style="style(index)"
 							:src="src(index)"

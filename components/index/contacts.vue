@@ -9,7 +9,8 @@
 			px-10
 			py-20"
 		id="contact">
-		<div class="flex flex-col items-center justify-center md:flex-row">
+		<div
+			class="flex flex-col items-center justify-center md:flex-row">
 			<div
 				v-motion
 				:initial="motion.left.initial"
@@ -25,7 +26,8 @@
 					py-10
 					text-light-sand">
 				<!-- eslint-disable-next-line tailwindcss/no-custom-classname -->
-				<div class="contact-overlay z-0 rounded-3xl" />
+				<div
+					class="contact-overlay z-0 rounded-3xl" />
 				<NuxtLink
 					v-for="(item, index) in contacts"
 					:key="index"
@@ -38,8 +40,10 @@
 					<Icon
 						:name="item.icon"
 						size="36px" />
-					<div class="ml-4 flex flex-col">
-						<h5 class="font-mono text-2xl font-bold">
+					<div
+						class="ml-4 flex flex-col">
+						<h5
+							class="font-mono text-2xl font-bold">
 							{{ item.title }}
 						</h5>
 						{{ item.content }}
@@ -83,7 +87,8 @@
 					px-14
 					py-10
 					text-light-sand">
-				<div class="contact-overlay z-0 rounded-3xl" />
+				<div
+					class="contact-overlay z-0 rounded-3xl" />
 				<div
 					v-for="(item, index) in pricing"
 					:key="index"
@@ -91,8 +96,10 @@
 					<Icon
 						:name="item.icon"
 						size="36px" />
-					<div class="ml-4 flex flex-col">
-						<h5 class="font-mono text-2xl font-bold">
+					<div
+						class="ml-4 flex flex-col">
+						<h5
+							class="font-mono text-2xl font-bold">
 							{{ item.title }}
 						</h5>
 						{{ item.content }}

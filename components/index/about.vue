@@ -3,7 +3,8 @@
 		<AppShape
 			id="about"
 			class="relative top-1 mt-28 rotate-180 fill-terra" />
-		<section class="flex items-center bg-terra px-10 py-20">
+		<section
+			class="flex items-center bg-terra px-10 py-20">
 			<div
 				class="flex
 					flex-col
@@ -25,16 +26,18 @@
 					:visible-once="motion.right.visibleOnce">
 					<h3
 						class="
-							font-mono
-							text-5xl
-							font-bold
-							text-white">
+						text-center
+						font-mono
+						text-5xl
+						font-bold
+						text-white
+						md:text-left">
 						Estelle Venturini
 					</h3>
-					<p class="my-4 text-slate-50">
+					<p
+						class="my-4 text-slate-50">
 						Sophrologue et sexothérapeute, je m'engage pleinement dans l'accompagnement
 						vers un épanouissement mental et sexuel.
-						<br>
 						Offrant un espace sécurisé et bienveillant, j'encourage
 						l'exploration des émotions, désirs et besoins les plus intimes.
 					</p>
@@ -48,7 +51,8 @@
 				</div>
 			</div>
 		</section>
-		<AppShape class="relative -top-1 fill-terra" />
+		<AppShape
+			class="relative -top-1 fill-terra" />
 	</div>
 </template>
 <script setup lang="ts">

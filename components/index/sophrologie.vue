@@ -4,7 +4,8 @@
 			id="sophro"
 			class="relative top-1 mt-28 rotate-180 fill-truffle" />
 
-		<section class="flex flex-col items-center bg-truffle px-10 py-20">
+		<section
+			class="flex flex-col items-center bg-truffle px-10 py-20">
 			<div
 				class="flex
 					w-full
@@ -17,10 +18,12 @@
 					v-motion
 					:initial="motion.left.initial"
 					:visible-once="motion.left.visibleOnce">
-					<h4 class="font-mono text-5xl font-bold">
+					<h4
+						class="text-center font-mono text-5xl font-bold md:text-left">
 						La sophrologie
 					</h4>
-					<p class="my-4 text-slate-50">
+					<p
+						class="my-4 text-slate-50">
 						C'est une méthode de relaxation qui combine la respiration, la méditation et
 						la visualisation pour harmoniser le corps et l'esprit. Elle aide à gérer le stress, l'anxiété
 						et à renforcer la confiance en soi.
@@ -56,7 +59,8 @@
 				</div>
 			</div>
 		</section>
-		<AppShape class="relative -top-1 fill-truffle" />
+		<AppShape
+			class="relative -top-1 fill-truffle" />
 	</div>
 </template>
 <style>

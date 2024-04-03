@@ -1,5 +1,6 @@
 <template>
-	<div class="box-border bg-beige text-lg text-truffle">
+	<div
+		class="box-border bg-beige text-lg text-truffle">
 		<header
 			class="flex
 				items-center
@@ -10,7 +11,8 @@
 				md:px-12
 				lg:flex-col
 				xl:flex-row">
-			<NuxtLink to="/">
+			<NuxtLink
+				to="/">
 				<NuxtImg
 					src="/logo_estelle_venturini.png"
 					sizes="400px"
@@ -18,10 +20,12 @@
 			</NuxtLink>
 			<AppNav />
 		</header>
-		<main class="py-8 lg:py-12">
+		<main
+			class="py-8 lg:py-12">
 			<slot />
 		</main>
-		<footer class="flex justify-center px-20 pb-12">
+		<footer
+			class="flex justify-center px-20 pb-12">
 			<div
 				class="flex-col
 					items-center

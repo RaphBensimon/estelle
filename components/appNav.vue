@@ -62,9 +62,12 @@
 		<div
 			class="tham tham-e-squeeze tham-w-8 lg:hidden"
 			@click="activeHamburger">
-			<div class="tham-box">
-				<div class="tham-inner bg-truffle" />
-				<div class="tham-inner bg-truffle" />
+			<div
+				class="tham-box">
+				<div
+					class="tham-inner bg-truffle" />
+				<div
+					class="tham-inner bg-truffle" />
 			</div>
 		</div>
 	</div>

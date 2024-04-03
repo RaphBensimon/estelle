@@ -16,15 +16,16 @@ module.exports = {
 	'parser'        : 'vue-eslint-parser',
 	'parserOptions' : { 'parser' : { 'ts' : '@typescript-eslint/parser' } },
 	'rules'         : {
-		'no-console'          : process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-		'no-debugger'         : process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-		'quotes'                : ['error', 'single'],
-		'semi'                  : ['error', 'never'],
-		'space-before-blocks' : ['error', 'always'],
-		'indent'                : [2, 'tab', { VariableDeclarator : 'first' }],
-		'padded-blocks'       : ['error', 'never'],
-		'brace-style'         : ['error', '1tbs'],
-		'max-len'             : ['error', {
+		'tailwindcss/no-custom-classname' : 0,
+		'no-console'                      : process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+		'no-debugger'                     : process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+		'quotes'                          : ['error', 'single'],
+		'semi'                            : ['error', 'never'],
+		'space-before-blocks'             : ['error', 'always'],
+		'indent'                          : [2, 'tab', { VariableDeclarator : 'first' }],
+		'padded-blocks'                   : ['error', 'never'],
+		'brace-style'                     : ['error', '1tbs'],
+		'max-len'                         : ['error', {
 			code           : 120,
 			tabWidth       : 4,
 			ignoreComments : true
@@ -70,7 +71,7 @@ module.exports = {
 			ignores                   : []
 		}],
 		'vue/first-attribute-linebreak' : ['error', {
-			'singleline' : 'beside',
+			'singleline' : 'below',
 			'multiline'  : 'below'
 		}],
 		'vue/mustache-interpolation-spacing'   : ['error', 'always'],
