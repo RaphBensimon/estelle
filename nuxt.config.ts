@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	devtools : { enabled : true },
 	css      : ['~/assets/css/main.css'],
@@ -12,7 +11,7 @@ export default defineNuxtConfig({
 		url           : 'https://estelle-venturini.fr',
 		name          : 'Estelle Ventuini',
 		description   : 'Welcome to my awesome site!',
-		defaultLocale : 'fr' // not needed if you have @nuxtjs/i18n installed
+		defaultLocale : 'fr'
 	},
 	app : {
 		head : {
@@ -34,8 +33,11 @@ export default defineNuxtConfig({
 			]
 		}
 	},
-	modules : ['@nuxt/image',
+	modules : [
+		'@nuxt/image',
 		'nuxt-icon',
 		'@vueuse/motion/nuxt',
-		'@nuxtjs/seo']
+		'@nuxtjs/seo',
+		'@nuxt/content'
+	]
 })

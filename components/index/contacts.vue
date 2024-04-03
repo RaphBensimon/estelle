@@ -14,7 +14,7 @@
 			<div
 				v-motion
 				:initial="motion.left.initial"
-				:visible-once="motion.left.visibleOnce"
+				:visible="motion.left.visibleOnce"
 				class="relative
 					flex
 					w-fit
@@ -53,7 +53,7 @@
 			<NuxtImg
 				v-motion
 				:initial="motion.right.initial"
-				:visible-once="motion.right.visibleOnce"
+				:visible="motion.right.visibleOnce"
 				class="mt-14 max-w-1/2-vw md:ml-14 md:mt-0 md:max-w-1/4-vw"
 				src="/fleur.png"
 				sizes="380px" />
@@ -69,14 +69,14 @@
 
 				v-motion
 				:initial="motion.left.initial"
-				:visible-once="motion.left.visibleOnce"
+				:visible="motion.left.visibleOnce"
 				class="mt-14 max-w-1/2-vw md:mr-14 md:mt-0 md:max-w-1/4-vw"
 				src="/femme.png"
 				sizes="380px" />
 			<div
 				v-motion
 				:initial="motion.right.initial"
-				:visible-once="motion.right.visibleOnce"
+				:visible="motion.right.visibleOnce"
 				class="relative
 					flex
 					w-fit

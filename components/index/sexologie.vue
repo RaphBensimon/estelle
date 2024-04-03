@@ -25,7 +25,7 @@
 
 						v-motion
 						:initial="motion.left.initial"
-						:visible-once="motion.left.visibleOnce"
+						:visible="motion.left.visibleOnce"
 						sizes="400px" />
 				</div>
 				<div
@@ -33,7 +33,7 @@
 
 					v-motion
 					:initial="motion.right.initial"
-					:visible-once="motion.right.visibleOnce">
+					:visible="motion.right.visibleOnce">
 					<h4
 						class="text-center font-mono text-5xl font-bold md:text-left">
 						La sexologie

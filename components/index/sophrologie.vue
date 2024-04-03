@@ -17,7 +17,7 @@
 					class="text-white md:w-2/4"
 					v-motion
 					:initial="motion.left.initial"
-					:visible-once="motion.left.visibleOnce">
+					:visible="motion.left.visibleOnce">
 					<h4
 						class="text-center font-mono text-5xl font-bold md:text-left">
 						La sophrologie
@@ -42,7 +42,7 @@
 
 					v-motion
 					:initial="motion.right.initial"
-					:visible-once="motion.right.visibleOnce"
+					:visible="motion.right.visibleOnce"
 					id="image"
 					class="relative
 						mt-8

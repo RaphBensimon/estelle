@@ -14,7 +14,7 @@
 				<NuxtImg
 					v-motion
 					:initial="motion.left.initial"
-					:visible-once="motion.left.visibleOnce"
+					:visible="motion.left.visibleOnce"
 
 					src="/estelle-venturini.jpg"
 					sizes="350px"
@@ -23,7 +23,7 @@
 					class="mt-14 md:ml-14 md:mt-0 lg:w-2/4"
 					v-motion
 					:initial="motion.right.initial"
-					:visible-once="motion.right.visibleOnce">
+					:visible="motion.right.visibleOnce">
 					<h3
 						class="
 						text-center
