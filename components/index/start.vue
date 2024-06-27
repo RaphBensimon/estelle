@@ -1,8 +1,9 @@
 <template>
 	<div>
 		<section
-			class="flex flex-col items-center px-10 lg:px-60">
-			<div>
+			class="lg:px-30 flex flex-col items-center px-10">
+			<div
+				class="flex flex-col items-center">
 				<h3
 					class="mb-8
 					text-center
@@ -10,14 +11,15 @@
 					text-4xl
 					font-medium
 					sm:text-6xl">
-					Épanouissez-vous corps et esprit
+					Un espace dédié aux jeunes, aux femmes
+					et à la communauté LGBTQIA+ pour prendre soin de leur
+					santé mentale et sexuelle.
 				</h3>
 				<p
-					class="max-w-3xl mb-8 text-center text-lg">
-					Explorez votre épanouissement mental et sexuel avec <b>Estelle Venturini</b>,
-					sophrologue et sexothérapeute certifiée. Mon cabinet offre un espace sûr
-					pour découvrir les multiples facettes de votre être. Avec compassion, je
-					vous accompagnerai vers l'harmonie corporelle.
+					class="mb-8 max-w-3xl text-center text-lg">
+					Je t'accompagne dans un voyage intime à travers la sophrologie, la sexothérapie & la
+					thérapie Mosaïc®, afin que tu puisses découvrir et explorerles
+					multiples facettes de ta santé mentale et sexuelle.
 				</p>
 			</div>
 			<div
@@ -31,7 +33,7 @@
 				<AppButton
 					variant="truffle">
 					<NuxtLink
-						href="tel:06060606"
+						href="tel:0623444501"
 						class="flex items-center justify-center gap-x-2">
 						<Icon
 							name="bi:telephone" />

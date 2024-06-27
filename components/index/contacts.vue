@@ -32,6 +32,7 @@
 					v-for="(item, index) in contacts"
 					:key="index"
 					:href="item.href"
+					:target="item.target"
 					class="z-10
 						flex
 						cursor-pointer
@@ -105,6 +106,13 @@
 						{{ item.content }}
 					</div>
 				</div>
+				<div
+					class="w-72 text-sm">
+					Une facture sera fournie pour les consultations
+					individuelles afin de faciliter les démarches de
+					remboursement auprès de ta mutuelle,
+					conformément à tes modalités de prise en charge.
+				</div>
 			</div>
 		</div>
 	</div>
@@ -115,21 +123,30 @@ import { reactive } from 'vue'
 const contacts = reactive([
 	{
 		title   : 'Addresse',
-		content : '11 Allée marguerite Livry Gargan',
-		href    : '',
-		icon    : 'bi:map'
+		content : '82 grande rue, Pontarmé, 60520',
+		// eslint-disable-next-line max-len
+		href    : 'https://www.google.fr/maps/place/82+Grande+Rue,+60520+Pontarm%C3%A9/@49.1562728,2.5492797,17z/data=!3m1!4b1!4m6!3m5!1s0x47e639ea9eac48a9:0x6fbbe3a2462f95b5!8m2!3d49.1562693!4d2.5518546!16s%2Fg%2F11c14qrjbb?entry=ttu',
+		icon    : 'bi:map',
+		target  : 'blank'
 	},
 	{
 		title   : 'Téléphone',
-		content : '06 58 75 917',
-		href    : 'tel:0658759117',
+		content : '06 23 44 45 01',
+		href    : 'tel:0623444501',
 		icon    : 'bi:telephone'
 	},
 	{
 		title   : 'Email',
-		content : 'test@test.fr',
-		href    : 'mail:test@test.fr',
+		content : 'estelleventurini.sophro@gmail.com',
+		href    : 'mail:estelleventurini.sophro@gmail.com',
 		icon    : 'bi:envelope-at'
+	},
+	{
+		title   : 'Instagram',
+		content : 'Sexophro',
+		href    : 'https://www.instagram.com/sexophro',
+		icon    : 'bi:instagram',
+		target  : 'blank'
 	}
 ])
 const pricing = reactive([
@@ -141,6 +158,11 @@ const pricing = reactive([
 	{
 		title   : 'Cercle de parole',
 		content : '20€ - 2 heures',
+		icon    : 'bi:people-fill'
+	},
+	{
+		title   : 'Groupe de sophrologie',
+		content : '20€ - 1h30',
 		icon    : 'bi:people-fill'
 	},
 	{
