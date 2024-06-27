@@ -2,6 +2,9 @@
 	<div>
 		<nav
 			class="
+				bg-truffle
+				text-light-sand
+				lg:text-truffle
 				invisible
 				absolute
 				right-12
@@ -12,11 +15,9 @@
 				flex-col
 				gap-8
 				rounded-lg
-				bg-truffle
 				p-8
 				font-mono
 				font-bold
-				text-light-sand
 				opacity-0
 				transition-opacity
 				md:mt-0
@@ -31,7 +32,6 @@
 				lg:rounded-none
 				lg:bg-transparent
 				lg:p-0
-				lg:text-truffle
 				lg:opacity-100
 				xl:mt-0">
 			<a
@@ -56,7 +56,7 @@
 				href="#sexo"
 				class="hover:underline hover:opacity-75"
 				@click="activeHamburger()">
-				Séxothérapie
+				Sexothérapie
 			</a>
 		</nav>
 		<div

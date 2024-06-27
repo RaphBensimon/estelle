@@ -2,7 +2,7 @@
 	<div
 		id="sexo">
 		<section
-			class="mt-28 flex flex-col items-center bg-terra px-10 py-20">
+			class="bg-terra mt-28 flex flex-col items-center px-10 py-20">
 			<div
 				class="flex
 					w-full
@@ -36,11 +36,11 @@
 					:visible="motion.right.visibleOnce">
 					<h4
 						class="text-center font-mono text-5xl font-bold md:text-left">
-						La sexologie
+						La sexothérapie
 					</h4>
 					<p
 						class="my-4 text-slate-50">
-						La sexologie explore les multiples facettes de la sexualité humaine, en considérant à la fois
+						La séxothérapie explore les multiples facettes de la sexualité humaine, en considérant à la fois
 						les aspects physiques, psychologiques et relationnels. Mon rôle en tant que sexologue est
 						d'accompagner mes patients dans leur cheminement vers une vie sexuelle épanouissante
 						et équilibrée.

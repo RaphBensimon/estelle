@@ -7,7 +7,7 @@ avec mes proches. Ma passion pour la psychologie et les voyages m’a conduit à
 enrichit ma compréhension de moi-même et de l'humain, nourrissant ainsi ma pratique
 
 thérapeutique.
-Mon histoire :
+## Mon histoire :
 Durant les 25 premières années de ma vie, j'ai vécu sous l'emprise de l'anxiété, de la dépression et
 des traumatismes non diagnostiqués de mon enfance, me perdant dans un flou médical. Dans cette
 obscurité, je me suis souvent sentie incomprise, en proie à une profonde solitude, parfois même
