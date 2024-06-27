@@ -2,7 +2,7 @@
 	<div
 		id="sexo">
 		<section
-			class="bg-terra mt-28 flex flex-col items-center px-10 py-20">
+			class="mt-28 flex flex-col items-center bg-terra px-10 py-20">
 			<div
 				class="flex
 					w-full
@@ -40,14 +40,13 @@
 					</h4>
 					<p
 						class="my-4 text-slate-50">
-						La séxothérapie explore les multiples facettes de la sexualité humaine, en considérant à la fois
-						les aspects physiques, psychologiques et relationnels. Mon rôle en tant que sexologue est
-						d'accompagner mes patients dans leur cheminement vers une vie sexuelle épanouissante
-						et équilibrée.
-						<br>
-						En utilisant des approches personnalisées et bienveillantes, nous travaillons
-						ensemble pour surmonter les obstacles, comprendre les désirs et trouver des solutions adaptées
-						à leurs besoins spécifiques.
+						La sexothérapie explore les multiples facettes de la sexualité humaine,
+						en considérant à la fois les aspects physiques, émotionnelle, psychologique
+						et relationnels. Mon rôle en tant que sexothérapeute est de
+						t’accompagner dans ton cheminement vers une vie sexuelles épanouissante et
+						équilibré. En utilisant des approches personnalisées et bienveillante,
+						nous travaillons ensemble pour surmonter les obstacles,
+						comprendre tes désirs ettrouver des solutions adaptées à tes besoins spécifiques.
 					</p>
 					<NuxtLink
 						class="cursor-pointer

@@ -2,10 +2,10 @@
 	<div>
 		<AppShape
 			id="sophro"
-			class="fill-truffle relative top-1 mt-28 rotate-180" />
+			class="relative top-1 mt-28 rotate-180 fill-truffle" />
 
 		<section
-			class="bg-truffle flex flex-col items-center px-10 py-20">
+			class="flex flex-col items-center bg-truffle px-10 py-20">
 			<div
 				class="flex
 					w-full
@@ -24,10 +24,12 @@
 					</h4>
 					<p
 						class="my-4 text-slate-50">
-						C'est une méthode de relaxation qui combine la respiration, la méditation et
-						la visualisation pour harmoniser le corps et l'esprit. Elle aide à gérer le stress, l'anxiété
-						et à renforcer la confiance en soi.
-						Les séances incluent des exercices simples guidés pour détendre le corps et calmer l'esprit.
+						La sophrologie est une méthode qui vise à harmoniser le corps, les émotions et les pensées,
+						offrant ainsi à	chacun la possibilité de trouver son équilibre intérieur et sa juste place
+						dans le monde. C’est une boîte à outils composée de pratiques simples, telles que la
+						visualisation, la respiration et des mouvements doux, que tu peux utiliser partout et
+						à tout moment selon tes besoins (stress, anxiété, dépression, maternité, etc..), et qui
+						peutt'accompagner au quotidien !
 					</p>
 					<NuxtLink
 						class="cursor-pointer
@@ -60,7 +62,7 @@
 			</div>
 		</section>
 		<AppShape
-			class="fill-truffle relative -top-1" />
+			class="relative -top-1 fill-truffle" />
 	</div>
 </template>
 <style>
