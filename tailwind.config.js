@@ -1,12 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export default {
 	theme   : {
-		maxWidth : {
-			'1/4-vw' : '25vw',
-			'1/2-vw' : '50vw',
-			'3/4-vw' : '75vw'
-		},
 		extend     : {
+			maxWidth : {
+				'1/4-vw' : '25vw',
+				'1/2-vw' : '50vw',
+				'3/4-vw' : '75vw'
+
+			},
 			colors     : {
 				'beige'               : '#F9F4EA',
 				'dark-sand'           : '665642',
