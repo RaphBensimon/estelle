@@ -37,7 +37,6 @@ export default defineNuxtConfig({
 		'@nuxt/image',
 		'nuxt-icon',
 		'@vueuse/motion/nuxt',
-		'@nuxtjs/seo',
-		'@nuxt/content'
+		'@nuxtjs/seo'
 	]
 })
