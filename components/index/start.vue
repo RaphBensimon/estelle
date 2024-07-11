@@ -11,13 +11,11 @@
 					text-4xl
 					font-medium
 					sm:text-6xl">
-					Un espace dédié aux jeunes, aux femmes
-					et à la communauté LGBTQIA+ pour prendre soin de leur
-					santé mentale et sexuelle.
+					Épanouissez-vous corps et esprit
 				</h3>
 				<p
 					class="mb-8 max-w-3xl text-center text-lg">
-					Je t'accompagne dans un voyage intime à travers la sophrologie, la sexothérapie & la
+					Je vous accompagne dans un voyage intime à travers la sophrologie, la sexothérapie & la
 					thérapie Mosaïc®, afin que tu puisses découvrir et explorerles
 					multiples facettes de ta santé mentale et sexuelle.
 				</p>

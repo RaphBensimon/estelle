@@ -2,10 +2,10 @@
 	<div>
 		<AppShape
 			id="sophro"
-			class="relative top-1 mt-28 rotate-180 fill-truffle" />
+			class="fill-truffle relative top-1 mt-28 rotate-180" />
 
 		<section
-			class="flex flex-col items-center bg-truffle px-10 py-20">
+			class="bg-truffle flex flex-col items-center px-10 py-20">
 			<div
 				class="flex
 					w-full
@@ -31,13 +31,14 @@
 						à tout moment selon tes besoins (stress, anxiété, dépression, maternité, etc..), et qui
 						peutt'accompagner au quotidien !
 					</p>
-					<NuxtLink
+					<a
+						href="/sophrologie"
 						class="cursor-pointer
 							text-slate-50
 							underline
 							hover:opacity-75">
 						En savoir plus...
-					</NuxtLink>
+					</a>
 				</div>
 
 				<div
@@ -62,7 +63,7 @@
 			</div>
 		</section>
 		<AppShape
-			class="relative -top-1 fill-truffle" />
+			class="fill-truffle relative -top-1" />
 	</div>
 </template>
 <style>

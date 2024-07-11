@@ -2,7 +2,7 @@
 	<div
 		id="sexo">
 		<section
-			class="mt-28 flex flex-col items-center bg-terra px-10 py-20">
+			class="bg-terra mt-28 flex flex-col items-center px-10 py-20">
 			<div
 				class="flex
 					w-full
@@ -48,13 +48,14 @@
 						nous travaillons ensemble pour surmonter les obstacles,
 						comprendre tes désirs ettrouver des solutions adaptées à tes besoins spécifiques.
 					</p>
-					<NuxtLink
+					<a
+						href="/sexotherapie"
 						class="cursor-pointer
 							text-slate-50
 							underline
 							hover:opacity-75">
 						En savoir plus...
-					</NuxtLink>
+					</a>
 				</div>
 			</div>
 		</section>
