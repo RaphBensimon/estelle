@@ -4,7 +4,7 @@
 		<IndexAbout />
 		<IndexContacts />
 		<IndexSophrologie />
-		<IndexSexologie />
+		<IndexSexotherapie />
 	</div>
 </template>
 <script lang="ts" setup>
