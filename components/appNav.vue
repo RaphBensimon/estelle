@@ -2,9 +2,6 @@
 	<div>
 		<nav
 			class="
-				bg-truffle
-				text-light-sand
-				lg:text-truffle
 				invisible
 				absolute
 				right-12
@@ -15,9 +12,11 @@
 				flex-col
 				gap-8
 				rounded-lg
+				bg-truffle
 				p-8
 				font-mono
 				font-bold
+				text-light-sand
 				opacity-0
 				transition-opacity
 				md:mt-0
@@ -32,31 +31,16 @@
 				lg:rounded-none
 				lg:bg-transparent
 				lg:p-0
+				lg:text-truffle
 				lg:opacity-100
 				xl:mt-0">
 			<a
+				v-for="(link, i) in links"
+				:key="i"
 				class="hover:underline hover:opacity-75"
-				href="/about"
+				:href="link.href"
 				@click="activeHamburger()">
-				A propos de moi
-			</a>
-			<a
-				class="hover:underline hover:opacity-75"
-				href="#contact"
-				@click="activeHamburger()">
-				Contacts & Tarifs
-			</a>
-			<a
-				href="/sophrologie"
-				class="hover:underline hover:opacity-75"
-				@click="activeHamburger()">
-				Sophrologie
-			</a>
-			<a
-				href="/sexotherapie"
-				class="hover:underline hover:opacity-75"
-				@click="activeHamburger()">
-				Sexothérapie
+				{{ link.title }}
 			</a>
 		</nav>
 		<div
@@ -73,6 +57,7 @@
 	</div>
 </template>
 <script setup lang="ts">
+import { computed } from '#imports'
 const activeHamburger = () => {
 	const tham = document.querySelector('.tham')
 	tham?.classList.toggle('tham-active')
@@ -83,4 +68,28 @@ const activeHamburger = () => {
 	nav?.classList.toggle('visible')
 	nav?.classList.toggle('invisible')
 }
+const links = computed(() => {
+	return [
+		{
+			href  : '/about',
+			title : 'A propos de moi'
+		},
+		{
+			href  : '#contact',
+			title : 'Contacts & Tarifs'
+		},
+		{
+			href  : '/sophrologie',
+			title : 'Sophrologie'
+		},
+		{
+			href  : '/sexotherapie',
+			title : 'Sexothérapie'
+		},
+		{
+			href  : '/therapie-mosaic',
+			title : 'Thérapie Mosaïc®'
+		}
+	]
+})
 </script>
