@@ -65,8 +65,18 @@ import motion from '@/utils/motion'
 </script>
 <style scoped>
 #profil-picture {
-	border-radius: 3rem 3rem 50% 3rem;
+	border-radius: 3rem 3rem 3rem 50%;
 	max-width: 90%;
 	width: 350px;
+}
+@media (max-width:768px){
+	#profil-picture {
+        @apply rounded-[3rem] max-w-[80%] w-full
+    }
+}
+@media (max-width:640px){
+	#profil-picture{
+        @apply max-w-full
+    }
 }
 </style>

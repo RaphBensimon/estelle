@@ -5,6 +5,7 @@
 		<IndexContacts />
 		<IndexSophrologie />
 		<IndexSexotherapie />
+		<IndexTherapieMosaic />
 	</div>
 </template>
 <script lang="ts" setup>

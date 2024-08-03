@@ -11,7 +11,7 @@ export default {
 			colors     : {
 				'beige'               : '#F9F4EA',
 				'dark-sand'           : '665642',
-				'sand'                : '#CDAD85',
+				'sand'                : '#DFC3A4',
 				'light-sand'          : '#dcc5a9',
 				'super-light-sand'    : '#e6d6c2',
 				'truffle'             : '#605F4B',
@@ -20,7 +20,8 @@ export default {
 				'sage'                : '#9C9E80',
 				'terra'               : '#c47457',
 				'super-light-terra'   : '#dbab9a',
-				'light-terra'         : '#cf8f78'
+				'light-terra'         : '#cf8f78',
+				'browns'               : '#764A29'
 			}
 		},
 		fontFamily : {
@@ -29,7 +30,7 @@ export default {
 		}
 	},
 	plugins : [require('tailwind-hamburgers')],
-	css     : ['~/assets/css/main.css'],
+	css     : ['~/assets/css/main.scss'],
 	content : [
 		'./components/**/*.{js,vue,ts}',
 		'./layouts/**/*.vue',

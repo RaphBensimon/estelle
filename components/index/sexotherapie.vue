@@ -2,7 +2,7 @@
 	<div
 		id="sexo">
 		<section
-			class="bg-terra mt-28 flex flex-col items-center px-10 py-20">
+			class="mt-28 flex flex-col items-center bg-terra px-10 py-20">
 			<div
 				class="flex
 					w-full
@@ -11,31 +11,24 @@
 					justify-center
 					md:flex-row">
 				<div
-					id="image"
-					class="relative
+					class="border-image-right
 						mt-8
-						flex
-						size-full
-						justify-center
-						mix-blend-luminosity
 						md:mt-0">
 					<NuxtImg
-						class="size-full object-cover object-center"
 						src="/main-dans-la-main.jpg"
 
 						v-motion
 						:initial="motion.left.initial"
-						:visible="motion.left.visibleOnce"
-						sizes="400px" />
+						:visible="motion.left.visibleOnce" />
 				</div>
 				<div
-					class="text-white md:ml-14 md:w-2/4 md:text-left "
+					class="text-justify text-white md:ml-14 md:w-2/4 md:text-left"
 
 					v-motion
 					:initial="motion.right.initial"
 					:visible="motion.right.visibleOnce">
 					<h4
-						class="text-center font-mono text-5xl font-bold md:text-left">
+						class="font-mono text-5xl font-bold">
 						La sexothérapie
 					</h4>
 					<p
@@ -61,10 +54,3 @@
 		</section>
 	</div>
 </template>
-<style>
-#image, #image img {
-	border-radius: 3rem  3rem  50% 3rem;
-	max-width: 90%;
-    width: 350px;
-}
-</style>

@@ -1,0 +1,29 @@
+.border-image-left, .border-image-left img {
+	border-radius: 3rem 3rem 50%  3rem;
+	max-width: 90%;
+    width: 350px;
+}
+.border-image-right, .border-image-right img {
+	border-radius: 3rem  3rem 3rem 50%;
+	max-width: 90%;
+    width: 350px;
+}
+.border-image-left, .border-image-right {
+    @apply flex justify-center mix-blend-luminosity relative
+}
+.border-image-left img,
+.border-image-right img {
+    @apply size-full object-cover object-center
+}
+@media (max-width:768px){
+    .border-image-right, .border-image-right img,
+    .border-image-left, .border-image-left img {
+        @apply rounded-[3rem] max-w-[80%] w-full
+    }
+}
+@media (max-width:640px){
+    .border-image-right, .border-image-right img,
+    .border-image-left, .border-image-left img {
+        @apply max-w-full
+    }
+}
