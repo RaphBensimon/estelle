@@ -22,11 +22,15 @@
 			</div>
 			<div
 				class="mb-12 flex flex-col gap-4 md:flex-row">
-				<AppButton
-					class="flex items-center gap-x-2">
-					<Icon
-						name="bi:calendar-check" />
-					Prendez rendez-vous
+				<AppButton>
+					<NuxtLink
+						href="https://www.resalib.fr/praticien/93975-estelle-venturini-therapeute-pontarme"
+						target="blank"
+						class="flex items-center justify-center gap-x-2">
+						<Icon
+							name="bi:calendar-check" />
+						Prendez rendez-vous
+					</NuxtLink>
 				</AppButton>
 				<AppButton
 					variant="truffle">

@@ -15,7 +15,7 @@
 						mt-8
 						md:mt-0">
 					<NuxtImg
-						src="/main-dans-la-main.jpg"
+						src="/sexotherapie.jpg"
 
 						v-motion
 						:initial="motion.left.initial"

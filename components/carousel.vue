@@ -27,9 +27,16 @@
 </template>
 <script setup lang="ts">
 const src = (index: number) => {
+	const src = ['sexotherapie',
+		'sophrologie',
+		'therapie-mosaic',
+		'accompagnements',
+		'femme-accompagnements',
+		'homme-sophrologie',
+		'sexotherapie']
 	if(index > 6)
-		return `/image${(index - 6)}.jpg`
-	return `/image${index}.jpg`
+		return `/${src[index - 6]}.jpg`
+	return `/${src[index]}.jpg`
 }
 const getClass = (index : number) => {
 	const arr = ['p-8 rounded-3xl w-96 h-96']

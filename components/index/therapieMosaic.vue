@@ -47,7 +47,7 @@
 						md:mt-0">
 					<NuxtImg
 						class="size-full object-cover object-center"
-						src="/main-dans-la-main.jpg"
+						src="/therapie-mosaic.jpg"
 
 						v-motion
 						:initial="motion.right.initial"

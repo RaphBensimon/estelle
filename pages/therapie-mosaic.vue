@@ -4,7 +4,7 @@
 			La thérapie Mosaïc®
 		</h1>
 		<div
-			class="mt-10 flex gap-12">
+			class="mt-10 flex flex-col gap-12 sm:flex-row lg:items-center">
 			<div>
 				<h3
 					class="mt-0">
@@ -20,7 +20,7 @@
 					souffrances liées aux traumatismes.
 				</p>
 				<h3
-					class="text-right">
+					class="text-left lg:text-right">
 					La thérapie mosaïc, pour quoi ?
 				</h3>
 				<p>
@@ -38,14 +38,16 @@
 				</ul>
 			</div>
 			<NuxtImg
-				src="/femme-sophrologie.jpg"
-				sizes="300px" />
+				src="/femme-therapie-mosaic.jpg"
+				height="600"
+				width="212" />
 		</div>
 		<div
-			class="mt-10 flex gap-12">
+			class="mt-10 flex flex-col-reverse gap-12 sm:flex-row lg:items-center">
 			<NuxtImg
-				src="/femme-sophrologie.jpg"
-				sizes="300px" />
+				src="/therapie-mosaic.jpg"
+				height="600"
+				width="212" />
 			<div>
 				<h3
 					class="mt-0">
@@ -61,7 +63,7 @@
 					pour sa guérison, déjà présente en lui
 				</p>
 				<h3
-					class="text-right">
+					class="text-left lg:text-right">
 					La thérapie mosaïc, ça vient d’où ?
 				</h3>
 				<p>

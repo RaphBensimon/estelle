@@ -52,8 +52,8 @@
 						md:mt-0">
 					<NuxtImg
 						class=""
-						src="/femme-sophrologie.jpg"
-						sizes="350px" />
+						src="/sophrologie.jpg"
+						sheight="350" />
 				</div>
 			</div>
 		</section>
@@ -61,8 +61,3 @@
 			class="relative -top-1 fill-truffle" />
 	</div>
 </template>
-<style scoped>
-#image, #image img {
-    height: 483px;
-}
-</style>
