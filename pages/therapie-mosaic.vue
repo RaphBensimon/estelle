@@ -81,7 +81,11 @@
 </template>
 <script lang="ts" setup>
 import { definePageMeta } from '#imports'
-definePageMeta({ title : 'Thérapie Mosaic' })
+definePageMeta({
+	title       : 'Thérapie Mosaic | Estelle Venturini',
+	// eslint-disable-next-line max-len
+	description : 'Découvrez la thérapie MOSAIC®, une approche intégrative utilisant des techniques comme l\'EMDR et l\'IFS pour traiter les troubles psychologiques. Efficace contre les traumatismes, l\'anxiété, la dépression, et plus encore, elle permet une guérison sans retraumatisation. Adaptée à toutes les souffrances psychologiques.'
+})
 </script>
 <style lang="scss" scoped>
 @import "tailwindcss/utilities";

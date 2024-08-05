@@ -9,8 +9,9 @@ export default defineNuxtConfig({
 	},
 	site : {
 		url           : 'https://estelle-venturini.fr',
-		name          : 'Estelle Ventuini',
-		description   : 'Welcome to my awesome site!',
+		name          : 'Estelle Venturini',
+		// eslint-disable-next-line max-len
+		description   : 'Je suis Estelle Venturini, Sophrologue et Sexothérapeute certifiée RNCP. Je vous accompagne en douceur vers vos objectifs dans un espace safe. Explorez la sophrologie, la sexothérapie et la thérapie Mosaïc® pour votre santé mentale et sexuelle. Espace dédié aux jeunes, femmes et à la communauté LGBTQIA+. Prenez rendez-vous."',
 		defaultLocale : 'fr'
 	},
 	app : {
@@ -32,6 +33,11 @@ export default defineNuxtConfig({
 
 			]
 		}
+	},
+	seo     : {
+
+		automaticDefaults          : false,
+		redirectToCanonicalSiteUrl : true
 	},
 	modules : [
 		'@nuxt/image',

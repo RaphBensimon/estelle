@@ -21,7 +21,7 @@
 			<AppNav />
 		</header>
 		<main
-			class="py-8 lg:py-12">
+			class="pb-8 lg:pb-12">
 			<slot />
 		</main>
 		<footer

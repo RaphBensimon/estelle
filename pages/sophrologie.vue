@@ -141,7 +141,11 @@
 </template>
 <script lang="ts" setup>
 import { definePageMeta } from '#imports'
-definePageMeta({ title : 'Sophrologie' })
+definePageMeta({
+	title       : 'Sophrologie | Estelle Venturini',
+	// eslint-disable-next-line max-len
+	description : 'Découvre la sophrologie, une méthode psychocorporelle qui harmonise corps, émotions et pensées. Utilise-la pour renforcer confiance en soi, gérer l\'anxiété, surmonter le burnout, ou simplement pour un mieux-être quotidien. Adaptée à tous, de l\'enfance à la vieillesse, y compris les ados, femmes et personnes LGBTQIA+'
+})
 </script>
 <style lang="scss" scoped>
 @import "tailwindcss/utilities";

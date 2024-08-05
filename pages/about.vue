@@ -147,7 +147,11 @@
 </template>
 <script lang="ts" setup>
 import { definePageMeta } from '#imports'
-definePageMeta({ title : 'A propos de moi' })
+definePageMeta({
+	title       : 'A propos de moi | Estelle Venturini',
+	// eslint-disable-next-line max-len
+	description : 'Découvrez mon parcours et ma passion pour la sophrologie et la sexothérapie. Après avoir surmonté mes propres défis de santé mentale, je me suis reconvertie pour accompagner les autres dans leur cheminement vers le bien-être. Je propose un accompagnement spécialisé pour les femmes, les minorités de genre, et la communauté LGBTQIA+.'
+})
 </script>
 <style lang="scss" scoped>
 p {

@@ -99,13 +99,17 @@
 			polykystiques (SOPK), les premières règles, ou même la ménopause, je suis là pour te soutenir
 			émotionnellement, pour t'aider à faire face aux défis et pour que tu te sentes comprise.Je
 			propose également un soutien & un accompagnement aux personnes vivant avec des IST,
-			ainsi qu'à leurs partenaires, en les accompagnant é
+			ainsi qu'à leurs partenaires, en les accompagnant.
 		</p>
 	</div>
 </template>
 <script lang="ts" setup>
 import { definePageMeta } from '#imports'
-definePageMeta({ title : 'La séxothérapie' })
+definePageMeta({
+	title       : 'La séxothérapie | Estelle Venturini',
+	// eslint-disable-next-line max-len
+	description : 'En tant que sexothérapeute, je propose un accompagnement dédié aux femmes, adolescents et la communauté LGBTQIA+. Utilisant la sophrologie, la sexothérapie et la thérapie mosaic, j\'offre un espace sécurisé pour aborder la sexualité, l\'éducation sexuelle, la prévention, l\'accompagnement des traumatismes, et les troubles sexuels.'
+})
 </script>
 <style lang="scss" scoped>
 p {
