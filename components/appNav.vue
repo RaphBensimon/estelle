@@ -75,7 +75,7 @@ const links = computed(() => {
 			title : 'A propos de moi'
 		},
 		{
-			href  : '#contact',
+			href  : '/#contact',
 			title : 'Contacts & Tarifs'
 		},
 		{

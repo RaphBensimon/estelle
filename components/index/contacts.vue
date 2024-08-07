@@ -24,7 +24,7 @@
 					bg-truffle
 					px-14
 					py-10
-					text-light-sand">
+					text-white">
 				<!-- eslint-disable-next-line tailwindcss/no-custom-classname -->
 				<div
 					class="contact-overlay z-0 rounded-3xl" />
@@ -37,6 +37,7 @@
 						flex
 						cursor-pointer
 						items-center
+						hover:underline
 						hover:opacity-75">
 					<Icon
 						:name="item.icon"
@@ -87,7 +88,7 @@
 					bg-terra
 					px-14
 					py-10
-					text-light-sand">
+					text-white">
 				<div
 					class="contact-overlay z-0 rounded-3xl" />
 				<div
