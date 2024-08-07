@@ -35,7 +35,7 @@
 						Estelle Venturini
 					</h3>
 					<p
-						class="my-4 text-slate-50">
+						class="my-4 text-justify text-slate-50">
 						Je suis Estelle Venturini, Sophrologue et Sexothérapeute certifiée RNCP.Je t’accueil
 						dans un espace safe pour t’accompagne en douceur et à ton propre rythme vers les objectifs
 						que tu souhaites atteindre. Je suis une épicurienne, qui célèbre et savoure les plaisirs

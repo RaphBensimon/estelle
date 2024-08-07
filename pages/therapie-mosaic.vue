@@ -90,7 +90,7 @@ definePageMeta({
 <style lang="scss" scoped>
 @import "tailwindcss/utilities";
 p {
-  @apply mb-3
+  @apply mb-3 text-justify
 }
 h3 {
     @apply mb-3 mt-10 font-mono text-2xl font-medium sm:text-3xl text-sand

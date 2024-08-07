@@ -22,7 +22,7 @@
 						Thérapie Mosaic®
 					</h4>
 					<p
-						class="my-4 text-slate-50">
+						class="my-4 text-justify text-slate-50">
 						La thérapie MOSAIC® (Mouvements Oculaires et Stimulations Alternées pour
 						l’Intégration Cérébrale) est une approche neurophysiologique, innovante
 						et humaniste qui traite les troubles psychologiques sans

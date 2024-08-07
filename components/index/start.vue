@@ -35,7 +35,7 @@
 				<AppButton
 					variant="truffle">
 					<NuxtLink
-						href="tel:0623444501"
+						href="tel:0610692378"
 						class="flex items-center justify-center gap-x-2">
 						<Icon
 							name="bi:telephone" />

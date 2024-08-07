@@ -32,7 +32,7 @@
 						La sexothérapie
 					</h4>
 					<p
-						class="my-4 text-slate-50">
+						class="my-4 text-justify text-slate-50">
 						La sexothérapie explore les multiples facettes de la sexualité humaine,
 						en considérant à la fois les aspects physiques, émotionnelle, psychologique
 						et relationnels. Mon rôle en tant que sexothérapeute est de

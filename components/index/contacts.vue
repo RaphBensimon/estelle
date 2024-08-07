@@ -157,7 +157,7 @@ const pricing = reactive([
 	},
 	{
 		title   : 'Cercle de parole',
-		content : '20€ - 2 heures',
+		content : '20€ - 1h30',
 		icon    : 'bi:people-fill'
 	},
 	{

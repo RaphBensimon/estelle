@@ -23,7 +23,7 @@
 						La sophrologie
 					</h4>
 					<p
-						class="my-4 text-slate-50">
+						class="my-4 text-justify text-slate-50">
 						La sophrologie est une méthode qui vise à harmoniser le corps, les émotions et les pensées,
 						offrant ainsi à	chacun la possibilité de trouver son équilibre intérieur et sa juste place
 						dans le monde. C’est une boîte à outils composée de pratiques simples, telles que la
