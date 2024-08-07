@@ -88,23 +88,5 @@ definePageMeta({
 })
 </script>
 <style lang="scss" scoped>
-@import "tailwindcss/utilities";
-p {
-  @apply mb-3 text-justify
-}
-h3 {
-    @apply mb-3 mt-10 font-mono text-2xl font-medium sm:text-3xl text-sand
-}
-h4 {
-    @apply mb-3 font-mono text-xl font-medium ml-4
-}
-ul {
-    @apply mb-3 ml-6 list-disc
-}
-h1 {
-    @apply mb-10 font-mono text-4xl font-medium sm:text-6xl text-browns
-}
-section {
-    @apply max-w-[1400px] relative left-[50%] translate-x-[-50%] px-[5%]
-}
+@import '@/assets/css/pages.scss';
 </style>
