@@ -1,11 +1,11 @@
 <template>
 	<div
-		class="mt-28
+		class="bg-sand
+			mt-28
 			flex
 			flex-col
 			items-center
 			justify-center
-			bg-sand
 			px-10
 			py-20"
 		id="contact">
@@ -15,13 +15,13 @@
 				v-motion
 				:initial="motion.left.initial"
 				:visible="motion.left.visibleOnce"
-				class="relative
+				class="bg-truffle
+					relative
 					flex
 					w-fit
 					flex-col
 					gap-y-4
 					rounded-3xl
-					bg-truffle
 					px-14
 					py-10
 					text-white">
@@ -56,7 +56,7 @@
 				v-motion
 				:initial="motion.right.initial"
 				:visible="motion.right.visibleOnce"
-				class="mt-14 max-w-1/2-vw md:ml-14 md:mt-0 md:max-w-1/4-vw"
+				class="max-w-1/2-vw md:max-w-1/4-vw mt-14 md:ml-14 md:mt-0"
 				src="/fleur.png"
 				sizes="380px" />
 		</div>
@@ -72,20 +72,20 @@
 				v-motion
 				:initial="motion.left.initial"
 				:visible="motion.left.visibleOnce"
-				class="mt-14 max-w-1/2-vw md:mr-14 md:mt-0 md:max-w-1/4-vw"
+				class="max-w-1/2-vw md:max-w-1/4-vw mt-14 md:mr-14 md:mt-0"
 				src="/femme.png"
 				sizes="380px" />
 			<div
 				v-motion
 				:initial="motion.right.initial"
 				:visible="motion.right.visibleOnce"
-				class="relative
+				class="bg-terra
+					relative
 					flex
 					w-fit
 					flex-col
 					gap-y-4
 					rounded-3xl
-					bg-terra
 					px-14
 					py-10
 					text-white">
@@ -132,8 +132,8 @@ const contacts = reactive([
 	},
 	{
 		title   : 'Téléphone',
-		content : '06 23 44 45 01',
-		href    : 'tel:0623444501',
+		content : '06 10 69 23 78',
+		href    : 'tel:0610692378',
 		icon    : 'bi:telephone'
 	},
 	{
