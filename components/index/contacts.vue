@@ -1,11 +1,11 @@
 <template>
 	<div
-		class="bg-sand
-			mt-28
+		class="mt-28
 			flex
 			flex-col
 			items-center
 			justify-center
+			bg-sand
 			px-10
 			py-20"
 		id="contact">
@@ -15,17 +15,16 @@
 				v-motion
 				:initial="motion.left.initial"
 				:visible="motion.left.visibleOnce"
-				class="bg-truffle
-					relative
+				class="relative
 					flex
 					w-fit
 					flex-col
 					gap-y-4
 					rounded-3xl
+					bg-truffle
 					px-14
 					py-10
 					text-white">
-				<!-- eslint-disable-next-line tailwindcss/no-custom-classname -->
 				<div
 					class="contact-overlay z-0 rounded-3xl" />
 				<NuxtLink
@@ -56,7 +55,7 @@
 				v-motion
 				:initial="motion.right.initial"
 				:visible="motion.right.visibleOnce"
-				class="max-w-1/2-vw md:max-w-1/4-vw mt-14 md:ml-14 md:mt-0"
+				class="mt-14 max-w-1/2-vw md:ml-14 md:mt-0 md:max-w-1/4-vw"
 				src="/fleur.png"
 				sizes="380px" />
 		</div>
@@ -72,20 +71,20 @@
 				v-motion
 				:initial="motion.left.initial"
 				:visible="motion.left.visibleOnce"
-				class="max-w-1/2-vw md:max-w-1/4-vw mt-14 md:mr-14 md:mt-0"
+				class="mt-14 max-w-1/2-vw md:mr-14 md:mt-0 md:max-w-1/4-vw"
 				src="/femme.png"
 				sizes="380px" />
 			<div
 				v-motion
 				:initial="motion.right.initial"
 				:visible="motion.right.visibleOnce"
-				class="bg-terra
-					relative
+				class="relative
 					flex
 					w-fit
 					flex-col
 					gap-y-4
 					rounded-3xl
+					bg-terra
 					px-14
 					py-10
 					text-white">
@@ -108,11 +107,20 @@
 					</div>
 				</div>
 				<div
-					class="w-72 text-sm">
+					class="w-72 text-xs">
 					Une facture sera fournie pour les consultations
 					individuelles afin de faciliter les démarches de
 					remboursement auprès de ta mutuelle,
 					conformément à tes modalités de prise en charge.
+					<br>
+					<br>
+					Pour les consultations en visio :
+					Le règlement doit être effectué par virement avant la consultation, au plus tard la veille.
+					Si le paiement n'est pas reçu, le rendez-vous sera annulé.
+					<br>
+					<br>
+					Pour les rendez-vous en présentiel :
+					Le paiement se fait le jour de la consultation par chèque, espèces ou virement.
 				</div>
 			</div>
 		</div>

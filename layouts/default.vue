@@ -36,6 +36,23 @@
 					@2024, Estelle VENTURINI, Tous droits réservés
 				</div>
 				<div>Crée par Raphaël BENSIMON</div>
+				<div>
+					<a
+						class="underline"
+						href="/politics">
+						Politique de confidentialité
+					</a>
+					<a
+						class="mx-2 underline"
+						href="/legals">
+						Mentions légales
+					</a>
+					<a
+						class="underline"
+						href="/cgv">
+						CGV
+					</a>
+				</div>
 			</div>
 		</footer>
 	</div>

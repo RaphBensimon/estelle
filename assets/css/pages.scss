@@ -27,3 +27,13 @@ section {
 .rounded-text-container {
     @apply rounded-xl border-2 border-browns py-5 px-10
 }
+table {
+    @apply w-full mb-6 border-collapse;
+
+    th, td {
+        @apply border border-browns p-3 text-sm;
+    }
+    th {
+        @apply bg-sand text-browns
+    }
+}
