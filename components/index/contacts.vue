@@ -139,12 +139,6 @@ const contacts = reactive([
 		target  : 'blank'
 	},
 	{
-		title   : 'Téléphone',
-		content : '06 10 69 23 78',
-		href    : 'tel:0610692378',
-		icon    : 'bi:telephone'
-	},
-	{
 		title   : 'Email',
 		content : 'estelleventurini.sophro@gmail.com',
 		href    : 'mail:estelleventurini.sophro@gmail.com',

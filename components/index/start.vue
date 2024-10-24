@@ -35,10 +35,11 @@
 				<AppButton
 					variant="truffle">
 					<NuxtLink
-						href="tel:0610692378"
+						href="https://docs.google.com/forms/d/e/1FAIpQLScE9y6jJAlZ1x29NqRU0HGRS4-wbgvxuPLcn-d7LZXceOe_LA/viewform?usp=sf_link"
+						target="blank"
 						class="flex items-center justify-center gap-x-2">
 						<Icon
-							name="bi:telephone" />
+							name="bi:chat-fill" />
 						Me contacter
 					</NuxtLink>
 				</AppButton>
