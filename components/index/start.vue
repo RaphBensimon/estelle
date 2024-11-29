@@ -11,12 +11,12 @@
 					text-4xl
 					font-medium
 					sm:text-6xl">
-					Épanouissez-vous corps et esprit
+					Épanouissement du corps et de l'esprit
 				</h3>
 				<p
 					class="mb-8 max-w-3xl text-center text-lg">
-					Je vous accompagne dans un voyage intime à travers la sophrologie, la sexothérapie & la
-					thérapie Mosaïc®, afin que tu puisses découvrir et explorerles
+					Je t'accompagne dans un voyage intime à travers la sophrologie, la sexothérapie & la
+					thérapie Mosaïc®, afin que tu puisses découvrir et explorer les
 					multiples facettes de ta santé mentale et sexuelle.
 				</p>
 			</div>

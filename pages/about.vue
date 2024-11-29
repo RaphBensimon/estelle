@@ -29,7 +29,7 @@
 		</p>
 		<p>
 			Accompagner l'être humain est alors devenu plus qu'une vocation : une véritable passion pour moi.
-			En 2020, je prend une décision audacieuse de reconversion professionnelle pour embrasser un
+			En 2020, je prends une décision audacieuse de reconversion professionnelle pour embrasser un
 			métier plus aligné avec mes valeurs humaines et sociétales. Je me suis formée à la sophrologie pendant
 			deux ans à l'ESSA de Vincennes, suite à un bilan de compétences. Cette expérience m'a enrichie
 			de précieux outils que j'aurais rêvé d’avoir lors de mes propres luttes contre l'anxiété et la
@@ -38,7 +38,7 @@
 			cheminer vers une vie qui leur correspond davantage.
 		</p>
 		<p>
-			En 2023, un tournant majeur s'est imposé dans ma vie : après une longue période de burn-out, j'ai choisi de
+			En 2023, ma vie a pris un tournant majeur : après une longue période de burn-out, j'ai choisi de
 			quitter mon emploi salarié pour ouvrir mon propre cabinet et me consacrer pleinement à ma passion :
 			accompagner l'être humain dans la découverte de sa juste place, dans son corps, sa sexualité et dans la
 			société.
@@ -57,18 +57,18 @@
 			</p>
 			<p
 				class="font-bold">
-				2020 : Formation Sophrologue à Essa - 300h (Ecole Supérieure de
+				2020 à 2022 : Formation Sophrologue à Essa - 300h (Ecole Supérieure de
 				Sophrologie Appliquée)
 				<br>
 				2023 : Formation de Sexothérapeute S.A.R.A.E - 200h (Sexualité
 				accompagnement relationnel, affectif & émotionnel) de Stéphanie Agrain
 				<br>
-				Septembre 2024 : Formation en Thérapie Mosaïc de référence 28h (TCC)
+				2024 : Formation en Thérapie Mosaïc de référence 28h (TCC)
 			</p>
 			<p>
 				Mon engagement est de continuer à me former tout au long de ma carrière afin
-				de répondre au mieux à tes besoins. Ma pratique en sophrologie et en thérapie
-				Mosaic est supervisée, garantissant un accompagnement de qualité et toujours
+				de répondre au mieux à tes besoins. Ma pratique en sophrologie et en sexothérapie
+				est supervisée, garantissant un accompagnement de qualité et toujours
 				adapté.
 			</p>
 		</div>
@@ -90,15 +90,15 @@
 				</p>
 				<p>
 					Mon accompagnement est spécifiquement destiné aux personnes
-					s'identifiant comme femmes, aux adolescents/jeunes, et à la
+					s'identifiant comme femmes, aux adolescent.e.s/jeunes, et à la
 					communauté LGBTQIA+.
 				</p>
 				<p>
-					Consciente des difficultés qu'ils rencontrent pour trouver un
+					Consciente des difficultés que ces personnes rencontrent pour trouver un
 					accompagnement sûr et bienveillant, je m'efforce de créer un espace
-					sécurisé et respectueux où chacun peut explorer ses besoins et
+					sécurisé et respectueux où tout à chacun peut explorer ses besoins et
 					préoccupations en toute confiance. Peu importe ton âge, ton genre, ta
-					couleur de peau ou ta religion : tu es le.la bienvenu.e dans mon cabinet,
+					couleur de peau ou ta religion : chaque personne est la bienvenue dans mon cabinet,
 					où tu seras accueilli.e avec bienveillance, humanité, et sécurité.
 				</p>
 			</div>
@@ -123,7 +123,7 @@
 			<p>
 				J’ai l’habitude de travailler avec un réseau de professionnels de la santé compétents, safe
 				et bienveillants. C'est pourquoi il peut arriver que je te mette en contact et te réoriente vers
-				un.e collègue compétent.e (sage-femme, naturopathe, ostéopathe, médecin, masseuse,
+				un ou une collègue compétent.e (sage-femme, naturopathe, ostéopathe, médecin, masseuse,
 				etc.) si une approche complémentaire ou spécifique est nécessaire pour ton bien-être.
 			</p>
 		</div>
@@ -140,13 +140,13 @@
 					remplacer un professionnel de la santé
 					médical, ni effectuer de suivi médical. Je
 					ne suis pas habilitée à poser un diagnostic,
-					à réaliser des examens médicaux ou à
+					à procéder à des examens médicaux ou à
 					prescrire des traitements.
 				</p>
 				<p>
 					En cas de nécessité, je peux te réorienter
-					vers des praticien.ne.s compétent.es et
-					bienveillant.es. Cependant, je peux être un
+					vers du personnel médical compétent et
+					bienveillant. Cependant, je peux être un
 					complément précieux dans ta recherche
 					de bien-être ! ;)
 				</p>

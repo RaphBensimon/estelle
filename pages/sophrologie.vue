@@ -17,7 +17,7 @@
 			Grâce à la répétition des exercices et l'expérience vécue, elle devient
 			un rituel permettant de muscler et de renforcer l'esprit dans une vision positive de
 			soi-même, favorisant ainsi un sentiment de confiance et d'accomplissement. Elle
-			offre une transition du doute "suis-je capable ?" à la certitude "je suis capable ! ».
+			offre une transition du doute « suis-je capable ? » à la certitude « je suis capable ! ».
 		</p>
 		<p>
 			La sophrologie est une approche psychocorporelle, fondée sur le principe selon
@@ -53,7 +53,7 @@
 			d'autres encore...
 		</p>
 		<h3>
-			La sophrologie, pour quoi faire ?!
+			La Sophrologie, pour quoi faire ?!
 		</h3>
 		<p>
 			Un outil polyvalent qui peut être utilisé pour accompagner diverses problématiques, telles que :
@@ -61,13 +61,13 @@
 		<ul
 			class="mb-3 ml-6 list-disc">
 			<li>
-				Confiance en soi
+				La confiance en soi
 			</li>
 			<li>
 				Le burnout
 			</li>
 			<li>
-				Dépendance affective
+				La dépendance affective
 			</li>
 			<li>
 				La reconnaissance & la compréhension des émotions
@@ -92,11 +92,11 @@
 			</li>
 		</ul>
 		<p>
-			Ou l’utilisée simplement pour trouver un mieux-être au quotidien, sans attendre les vacances ou
+			Ou utilisée simplement pour trouver un mieux-être au quotidien, sans attendre les vacances ou
 			le week-end ! ;)
 		</p>
 		<h3>
-			La sophrologie, pour qui?!
+			La Sophrologie, pour qui ?!
 		</h3>
 		<p>
 			La sophrologie s'adresse à un large éventail de personnes, dès l'âge de 3/4 ans et tout au long de
@@ -109,7 +109,7 @@
 			</li>
 			<li>
 				Durant l'adolescence, pour accompagner les jeunes dans leur transition vers l'âge adulte et
-				lesaider à surmonter les défis spécifiques de cette période.
+				les aider à surmonter les défis spécifiques de cette période.
 			</li>
 			<li>
 				À l'âge adulte, pour soutenir les individus dans les différentes étapes de leur vie, que ce

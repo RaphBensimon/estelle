@@ -34,12 +34,12 @@
 					<p
 						class="my-4 text-justify text-slate-50">
 						La sexothérapie explore les multiples facettes de la sexualité humaine,
-						en considérant à la fois les aspects physiques, émotionnelle, psychologique
+						en considérant à la fois les aspects physiques, émotionnels, psychologiques
 						et relationnels. Mon rôle en tant que sexothérapeute est de
-						t’accompagner dans ton cheminement vers une vie sexuelles épanouissante et
-						équilibré. En utilisant des approches personnalisées et bienveillante,
+						t’accompagner dans ton cheminement vers une vie sexuelle épanouissante et
+						équilibrée. En utilisant des approches personnalisées et bienveillantes,
 						nous travaillons ensemble pour surmonter les obstacles,
-						comprendre tes désirs ettrouver des solutions adaptées à tes besoins spécifiques.
+						comprendre tes désirs et trouver des solutions adaptées à tes besoins spécifiques.
 					</p>
 					<a
 						href="/sexotherapie"
