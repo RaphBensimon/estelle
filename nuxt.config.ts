@@ -35,14 +35,15 @@ export default defineNuxtConfig({
 		}
 	},
 	seo     : {
-
 		automaticDefaults          : false,
 		redirectToCanonicalSiteUrl : true
 	},
+	gtag    : { id : 'GTM-MD85NNQC' },
 	modules : [
 		'@nuxt/image',
 		'nuxt-icon',
 		'@vueuse/motion/nuxt',
-		'@nuxtjs/seo'
+		'@nuxtjs/seo',
+		'nuxt-gtag'
 	]
 })
