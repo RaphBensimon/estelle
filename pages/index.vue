@@ -5,7 +5,6 @@
 		<IndexContacts />
 		<IndexSophrologie />
 		<IndexSexotherapie />
-		<IndexTherapieMosaic />
 		<IndexPartners />
 	</div>
 </template>

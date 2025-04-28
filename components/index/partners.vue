@@ -25,34 +25,8 @@
 	</div>
 </template>
 <script setup>
-const images = [
-	{
-		src : '/partners/1.png',
-		alt : 'Partenaire 1'
-	},
-	{
-		src : '/partners/2.png',
-		alt : 'Partenaire 2'
-	},
-	{
-		src : '/partners/3.png',
-		alt : 'Partenaire 3'
-	},
-	{
-		src : '/partners/4.png',
-		alt : 'Partenaire 4'
-	},
-	{
-		src : '/partners/5.png',
-		alt : 'Partenaire 5'
-	},
-	{
-		src : '/partners/6.png',
-		alt : 'Partenaire 6'
-	},
-	{
-		src : '/partners/7.png',
-		alt : 'Partenaire 7'
-	}
-]
+const images = Array.from({ length : 10 }, (_, i) => ({
+	src : `/partners/${i + 1}.png`,
+	alt : `Partenaire ${i + 1}`
+}))
 </script>

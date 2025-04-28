@@ -11,13 +11,14 @@
 					text-4xl
 					font-medium
 					sm:text-6xl">
-					Épanouissement du corps et de l'esprit
+					Accompagnement inclusif & personnalisé pour les minorités de genre
 				</h3>
 				<p
 					class="mb-8 max-w-3xl text-center text-lg">
-					Je t'accompagne dans un voyage intime à travers la sophrologie, la sexothérapie & la
-					thérapie Mosaïc®, afin que tu puisses découvrir et explorer les
-					multiples facettes de ta santé mentale et sexuelle.
+					Je t’accompagne avec bienveillance à démêler les nœuds dans ta tête et clarifier tes
+					pensées ! Mon approche est inclusive et sur-mesure, spécialement adaptée aux
+					personnes issues des minorités de genre (femmes, LGBTQIA+, personnes racisées,
+					non-valides, neurodivergentes, etc.)
 				</p>
 			</div>
 			<div

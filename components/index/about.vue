@@ -36,14 +36,20 @@
 					</h3>
 					<p
 						class="my-4 text-justify text-slate-50">
-						Je suis Estelle Venturini, Sophrologue et Sexothérapeute certifiée RNCP. Je t’accueil
-						dans un espace safe pour t’accompagne en douceur et à ton propre rythme vers les objectifs
-						que tu souhaites atteindre. Je suis une épicurienne, qui célèbre et savoure les plaisirs
-						simples de la vie : partager un repas, éclater de rire avec mes	ami.es et créer des
-						liens authentiques avec mes proches. Ma passion pour la psychologie et les voyages me
-						conduisent à explorer le monde, à la recherche de nouvelles cultures et de délices culinaires.
-						Chaque voyage que j'entreprends enrichit ma compréhension de moi-même et de l'humain,
-						nourrissant ainsi ma pratique thérapeutique.
+						Je suis Estelle Venturini, thérapeute en
+						santé mentale & sexuelle. J’accompagne
+						les personnes issues des minorités de
+						genre dans un espace sécurisant,
+						bienveillant, où l’on avance à son rythme.
+						<br>
+						<br>
+						(Femmes, LGBTQIA+, neurodivergent·es,
+						personnes racisées, non-valides, etc.)
+						<br>
+						<br>
+						Ce que je souhaite avant tout : que tu te
+						sentes accueilli·e, entendu·e et respecté·e,
+						dans toute ton humanité.
 					</p>
 					<a
 						href="/about"

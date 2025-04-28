@@ -29,20 +29,26 @@
 					:visible="motion.right.visibleOnce">
 					<h4
 						class="font-mono text-5xl font-bold">
-						La sexothérapie
+						Mon accompagnement & mes engagements.
 					</h4>
 					<p
 						class="my-4 text-justify text-slate-50">
-						La sexothérapie explore les multiples facettes de la sexualité humaine,
-						en considérant à la fois les aspects physiques, émotionnels, psychologiques
-						et relationnels. Mon rôle en tant que sexothérapeute est de
-						t’accompagner dans ton cheminement vers une vie sexuelle épanouissante et
-						équilibrée. En utilisant des approches personnalisées et bienveillantes,
-						nous travaillons ensemble pour surmonter les obstacles,
-						comprendre tes désirs et trouver des solutions adaptées à tes besoins spécifiques.
+						Je propose un accompagnement inclusif,
+						féministe et anti-oppressif, pensé pour les
+						personnes issues des minorités de genre.
+						<br><br>
+						Mon approche prend en compte les
+						discriminations systémiques (racisme,
+						sexisme, validisme, LGBTQIA+phobies...)
+						et leurs impacts sur la santé mentale et
+						sexuelle.
+						<br><br>
+						✨ Ici, chaque personne est accueillie
+						avec respect, écouté.e avec
+						bienveillance.
 					</p>
 					<a
-						href="/sexotherapie"
+						href="/accompagnement-engagements"
 						class="cursor-pointer
 							text-slate-50
 							underline

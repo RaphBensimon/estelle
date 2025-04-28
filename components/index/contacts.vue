@@ -131,7 +131,7 @@ import motion from '@/utils/motion'
 import { reactive } from 'vue'
 const contacts = reactive([
 	{
-		title   : 'Addresse',
+		title   : 'Adresse',
 		content : '82 grande rue, Pontarmé, 60520',
 		// eslint-disable-next-line max-len
 		href    : 'https://www.google.fr/maps/place/82+Grande+Rue,+60520+Pontarm%C3%A9/@49.1562728,2.5492797,17z/data=!3m1!4b1!4m6!3m5!1s0x47e639ea9eac48a9:0x6fbbe3a2462f95b5!8m2!3d49.1562693!4d2.5518546!16s%2Fg%2F11c14qrjbb?entry=ttu',
@@ -154,24 +154,14 @@ const contacts = reactive([
 ])
 const pricing = reactive([
 	{
-		title   : 'Séance individuelle',
-		content : '65€ - 60 minutes',
+		title   : 'Première consultation',
+		content : '1h30 - 75€ TTCs',
 		icon    : 'bi:person-arms-up'
 	},
 	{
-		title   : 'Cercle de parole',
-		content : '20€ - 1h30',
-		icon    : 'bi:people-fill'
-	},
-	{
-		title   : 'Groupe de sophrologie',
-		content : '20€ - 1h30',
-		icon    : 'bi:people-fill'
-	},
-	{
-		title   : 'Atelier de groupe',
-		content : '40€ - 4 heures',
-		icon    : 'bi:people-fill'
+		title   : 'Consultation de suivi',
+		content : '1h00 - 65€ TTC',
+		icon    : 'bi:person-arms-up'
 	}
 ])
 </script>

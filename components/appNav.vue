@@ -72,23 +72,19 @@ const links = computed(() => {
 	return [
 		{
 			href  : '/about',
-			title : 'A propos de moi'
+			title : 'Qui suis-je ?'
 		},
 		{
 			href  : '/#contact',
-			title : 'Contacts & Tarifs'
+			title : 'Consultations & Tarifs'
 		},
 		{
-			href  : '/sophrologie',
-			title : 'Sophrologie'
+			href  : '/outils-mesure',
+			title : 'Mes outils sur-mesure'
 		},
 		{
-			href  : '/sexotherapie',
-			title : 'Sexothérapie'
-		},
-		{
-			href  : '/therapie-mosaic',
-			title : 'Thérapie Mosaïc®'
+			href  : '/accompagnement-engagements',
+			title : 'Mon accompagnement & mes engagements'
 		}
 	]
 })

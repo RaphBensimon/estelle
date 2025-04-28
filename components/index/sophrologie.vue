@@ -20,19 +20,22 @@
 					:visible="motion.left.visibleOnce">
 					<h4
 						class="font-mono text-5xl font-bold">
-						La sophrologie
+						Mes outils sur-mesure
 					</h4>
 					<p
 						class="my-4 text-justify text-slate-50">
-						La sophrologie est une méthode qui vise à harmoniser le corps, les émotions et les pensées,
-						offrant ainsi à	chacun la possibilité de trouver son équilibre intérieur et sa juste place
-						dans le monde. C’est une boîte à outils composée de pratiques simples, telles que la
-						visualisation, la respiration et des mouvements doux, que tu peux utiliser partout et
-						à tout moment selon tes besoins (stress, anxiété, dépression, maternité, etc..), et qui
-						peutt'accompagner au quotidien !
+						En tant que thérapeute en santé mentale & sexuelle, je mets à
+						ta disposition une boîte à outils composée de pratiques
+						simples et accessibles, adaptées à ton rythme et à tes besoins.
+						<br><br>
+						Chaque personne est unique, c’est pourquoi j’utilise une
+						approche pluridisciplinaire, alliant sophrologie, sexothérapie, et
+						Thérapie MOSAIC®, pour t'accompagner dans tes
+						problématiques et construire un chemin d’accompagnement
+						qui te ressemble vraiment.
 					</p>
 					<a
-						href="/sophrologie"
+						href="/outils-mesure"
 						class="cursor-pointer
 							text-slate-50
 							underline
